@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/stylesheet.css">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="../js/respond.min.js"></script>
+        <![endif]-->
+        <script src="jQuery-3.4.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/5e87eb8112.js"></script>
+        <script src="js/app.js"></script>
+
+        <title>الرئيسية</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="../images/SBK.png" alt="Logo" width="35" height="38" class="d-inline-block align-text-top">
+                    المنصة الوطنية المالية الرقمية
+                  </a>
+                  <span class="navbar-text">
+                    اهلاً حسن الفيفي
+                  </span>
+                </div>
+              </nav>
+        </header>
+        <main>
+            <div class="main">
+                <div class="content">
+                    <div class="container-fluid p-0">
+    
+                        <h1 class="h3 mb-3"><strong>إحصائيات</strong> لوحة العرض</h1>
+    
+                        <div class="row">
+                            <div class="col-xl-6 col-xxl-5 d-flex">
+                                <div class="w-100">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col mt-0">
+                                                            <h5 class="card-title">مجموع الارصدة البنكية</h5>
+                                                        </div>
+    
+                                                        <div class="col-auto">
+                                                            <div class="stat text-primary">
+                                                                <i class="align-middle" data-feather="dollar-sign"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="mt-1 mb-3">6554.13</h1>
+                                                    <div class="mb-0">
+                                                        <span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 6.65% </span>
+                                                        <span class="text-muted">عن الشهر السابق</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col mt-0">
+                                                            <h5 class="card-title">الواردات</h5>
+                                                        </div>
+    
+                                                        <div class="col-auto">
+                                                            <div class="stat text-primary">
+                                                                <i class="align-middle" data-feather="shopping-cart"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="mt-1 mb-3">1460</h1>
+                                                    <div class="mb-0">
+                                                        <span class="text-danger"> <i class="mdi mdi-arrow-bottom-right"></i> -2.25% </span>
+                                                        <span class="text-muted">عن الشهر السابق</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col mt-0">
+                                                            <h5 class="card-title">المصروفات</h5>
+                                                        </div>
+    
+                                                        <div class="col-auto">
+                                                            <div class="stat text-primary">
+                                                                <i class="align-middle" data-feather="truck"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="mt-1 mb-3">632.78</h1>
+                                                    <div class="mb-0">
+                                                        <span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> -3.65% </span>
+                                                        <span class="text-muted">عن الشهر السابق</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <div class="row">
+                                                        <div class="col mt-0">
+                                                            <h5 class="card-title">المتعثرات المالية</h5>
+                                                        </div>
+    
+                                                        <div class="col-auto">
+                                                            <div class="stat text-primary">
+                                                                <i class="align-middle" data-feather="users"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="mt-1 mb-3">200</h1>
+                                                    <div class="mb-0">
+                                                        <span class="text-success"> <i class="mdi mdi-arrow-bottom-right"></i> 0% </span>
+                                                        <span class="text-muted">عن الشهر السابق</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-xxl-7">
+                                <div class="card flex-fill w-100">
+                                    <div class="card-header">
+    
+                                        <h5 class="card-title mb-0">المصروفات</h5>
+                                    </div>
+                                    <div class="card-body py-3">
+                                        <div class="chart chart-sm">
+                                            <canvas id="chartjs-dashboard-line"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="A">
+                <div class="container sec">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-page">
+                                <h1>الحسابات البنكية</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row cnt row-cols-md-3">
+                        <div class="cardsframe col">
+                            <section class="cardcont">
+                                <div class="cardimg">
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <img src="../images/raj.png" alt="bank name">
+                                    </button>
+                                </div>
+                                <h3>مصرف الراجحي</h3>
+                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="staticBackdropLabel">مصرف الراجحي</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <h1>لديك <b>2</b> حساب في هذا البنك</h1>
+                                          <div class="container-fluid accsec">
+                                            <div class="row accinfo">
+                                              <div class="col-md-8"><h2>رقم الحساب: <span>50000555691254124</span></h2></div>
+                                              <div class="col-md-4 ms-auto">
+                                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                                        <span>753.23</span> ريال
+                                                    </button>
+                                              </div>
+                                              <div class="collapse" id="collapseExample">
+                                                <div class="card card-body">
+                                                    <div class="input-group mb-3">
+                                                        <label class="input-group-text" for="inputGroupSelect01">تحويل إلى حساب: </label>
+                                                        <select class="form-select" id="inputGroupSelect01">
+                                                          <option selected>اختر...</option>
+                                                          <option value="1">حساب راجحي رقم: <span>50000575661258334</span></option>
+                                                          <option value="2">حساب انماء رقم: <span>68000688132254494</span></option>
+                                                        </select>
+                                                        <input type="text" class="form-control" aria-describedby="button-addon">
+                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon">تحويل</button>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="row accinfo">
+                                                <div class="col-md-8"><h2>رقم الحساب: <span>50000575661258334</span></h2></div>
+                                                <div class="col-md-4 ms-auto">
+                                                      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                                                          <span>1180.24</span> ريال
+                                                      </button>
+                                                </div>
+                                                <div class="collapse" id="collapseExample2">
+                                                  <div class="card card-body">
+                                                      <div class="input-group mb-3">
+                                                          <label class="input-group-text" for="inputGroupSelect02">تحويل إلى حساب: </label>
+                                                          <select class="form-select" id="inputGroupSelect02">
+                                                            <option selected>اختر...</option>
+                                                            <option value="1">حساب راجحي رقم: <span>50000555691254124</span></option>
+                                                            <option value="2">حساب انماء رقم: <span>68000688132254494</span></option>
+                                                          </select>
+                                                          <input type="text" class="form-control" aria-describedby="button-addon2">
+                                                          <button class="btn btn-outline-secondary" type="button" id="button-addon2">تحويل</button>
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                          </div>
+                                          <h1>لديك <b>4</b> بطاقة في هذا البنك</h1>
+                                          <div class="container-fluid crdsec">
+                                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                                    <div class="col">
+                                                      <div class="card rajhi h-100">
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">**** **** **** <span>6820</span></h5>
+                                                          <p class="card-text">04/24</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="card rajhi h-100">
+                                                          <div class="card-body">
+                                                            <h5 class="card-title">**** **** **** <span>4850</span></h5>
+                                                            <p class="card-text">06/24</p>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="card rajhi h-100">
+                                                          <div class="card-body">
+                                                            <h5 class="card-title">**** **** **** <span>9158</span></h5>
+                                                            <p class="card-text">04/26</p>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="card rajhi h-100">
+                                                          <div class="card-body">
+                                                            <h5 class="card-title">**** **** **** <span>1840</span></h5>
+                                                            <p class="card-text">09/23</p>
+                                                          </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </section>
+                            <section class="cardcont">
+                                <div class="cardimg">
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop1.2">
+                                        <img src="../images/unnamed554.png" alt="bank name">
+                                    </button>
+                                </div>
+                                <h3>مصرف الإنماء</h3>
+                                <div class="modal fade" id="staticBackdrop1.2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop1.2Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="staticBackdrop1.2Label">مصرف الإنماء</h1>
+                                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                          <h1>لديك <b>1</b> حساب في هذا البنك</h1>
+                                          <div class="container-fluid accsec">
+                                            <div class="row accinfo">
+                                              <div class="col-md-8"><h2>رقم الحساب: <span>68000688132254494</span></h2></div>
+                                              <div class="col-md-4 ms-auto">
+                                                    <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+                                                        <span>4620.66</span> ريال
+                                                    </button>
+                                              </div>
+                                              <div class="collapse" id="collapseExample3">
+                                                <div class="card card-body">
+                                                    <div class="input-group mb-3">
+                                                        <label class="input-group-text" for="inputGroupSelect03">تحويل إلى حساب: </label>
+                                                        <select class="form-select" id="inputGroupSelect03">
+                                                          <option selected>اختر...</option>
+                                                          <option value="1">حساب راجحي رقم: <span>50000555691254124</span></option>
+                                                          <option value="2">حساب راجحي رقم: <span>50000575661258334</span></option>
+                                                        </select>
+                                                        <input type="text" class="form-control" aria-describedby="button-addon">
+                                                        <button class="btn btn-outline-secondary" type="button" id="button-addon">تحويل</button>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          <h1>لديك <b>1</b> بطاقة في هذا البنك</h1>
+                                          <div class="container-fluid crdsec">
+                                                <div class="row row-cols-1 row-cols-md-2 g-4">
+                                                    <div class="col">
+                                                      <div class="card inma h-100">
+                                                        <div class="card-body">
+                                                          <h5 class="card-title">**** **** **** <span>9080</span></h5>
+                                                          <p class="card-text">02/27</p>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="B">
+                <div class="container sec">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-page">
+                                <h1>الإلتزامات المالية</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row cnt row-cols-md-3">
+                        <div class="cardsframe col">
+                            <section class="cardcont">
+                                <div class="cardimg">
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                                        <img src="../images/mn.png" alt="..">
+                                    </button>
+                                </div>
+                                <h3>المخالفات المرورية</h3>
+                                <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop2Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdrop2Label">المخالفات المرورية</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <h1>لديك <b>0</b> مخالفة مرورية</h1>
+
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="cardsframe col">
+                            <section class="cardcont">
+                                <div class="cardimg">
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop2.2">
+                                        <img src="../images/mis.png" alt="..">
+                                    </button>
+                                </div>
+                                <h3>مخالفات وزارة الداخلية</h3>
+                                <div class="modal fade" id="staticBackdrop2.2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop2.2Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdrop2.2Label">مخالفات وزارة الداخلية</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                        <h1>لديك <b>0</b> مخالفة لدى وزارة الداخلية</h1>
+
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="cardsframe col">
+                            <section class="cardcont">
+                                <div class="cardimg">
+                                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop2.3">
+                                        <img src="../images/invoice.png" alt="..">
+                                    </button>
+                                </div>
+                                <h3>فواتير الخدمات</h3>
+                                <div class="modal fade" id="staticBackdrop2.3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop2.3Label" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="staticBackdrop2.3Label">فواتير الخدمات</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <h1>لديك <b>3</b> فواتير</h1>
+                                            <div class="container-fluid billsec">
+                                                <div class="row billinfo">
+                                                    <div class="col-md-8"><h2>فاتورة <span>كهرباء </span>رقم: <span>89894545</span></h2></div>
+                                                    <div class="col-md-4 ms-auto">
+                                                        <span>100</span> ريال
+                                                    </div>
+                                                </div>
+                                                <div class="row billinfo">
+                                                    <div class="col-md-8"><h2>فاتورة <span>مياه </span>رقم: <span>44662211</span></h2></div>
+                                                    <div class="col-md-4 ms-auto">
+                                                        <span>50</span> ريال
+                                                    </div>
+                                                </div>
+                                                <div class="row billinfo">
+                                                    <div class="col-md-8"><h2>فاتورة <span>انترنت </span>رقم: <span>99221133</span></h2></div>
+                                                    <div class="col-md-4 ms-auto">
+                                                        <span>50</span> ريال
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="C">
+                <div class="container sec">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="title-page">
+                                <h1>المحافظ الإستثمارية</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row cnt">
+                       <div class="nodata">
+                        <span>لا يوجد بيانات</span>
+                       </div>
+                    </div>
+                </div>
+            </section>
+            <section class="D">
+                <div class="container text-center">
+
+                </div>
+            </section>
+        </main>
+        <footer class="footerup" style="padding-top: 65px;">
+        </footer>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
+                var gradientG = ctx.createLinearGradient(0, 0, 0, 225);
+                gradientG.addColorStop(0, "green");
+                gradientG.addColorStop(1, "white");
+                var gradientR = ctx.createLinearGradient(0, 0, 0, 225);
+                gradientR.addColorStop(0, "red");
+                gradientR.addColorStop(1, "white");
+                // Line chart
+                new Chart(document.getElementById("chartjs-dashboard-line"), {
+                    type: "line",
+                    data: {
+                        labels: ["يناير", "فبراير", "مارس", "ابريل", "مايو", "يونيو", "يوليو", "اغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+                        datasets: [{
+                            label: "المبلغ المصروف",
+                            fill: true,
+                            backgroundColor: gradientG,
+                            borderColor: window.theme.success,
+                            data: [
+                                1115,
+                                562,
+                                584,
+                                892,
+                                587,
+                                923,
+                                1566,
+                                1448,
+                                1805,
+                                1438,
+                                917,
+                                327
+                            ]
+                        }]
+                    },
+                    options: {
+                        maintainAspectRatio: false,
+                        legend: {
+                            display: false
+                        },
+                        tooltips: {
+                            intersect: false
+                        },
+                        hover: {
+                            intersect: true
+                        },
+                        plugins: {
+                            filler: {
+                                propagate: false
+                            }
+                        },
+                        scales: {
+                            xAxes: [{
+                                reverse: true,
+                                gridLines: {
+                                    color: "rgba(0,0,0,0.0)"
+                                }
+                            }],
+                            yAxes: [{
+                                ticks: {
+                                    stepSize: 1000
+                                },
+                                display: true,
+                                borderDash: [3, 3],
+                                gridLines: {
+                                    color: "rgba(0,0,0,0.0)"
+                                }
+                            }]
+                        }
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

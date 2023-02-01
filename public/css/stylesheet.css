@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,700&display=swap');
+
+body {
+    margin: 0;
+    text-align: right;
+    overflow-x: hidden;
+    font-family: 'Tajawal', sans-serif;
+}
+/* صفحة تسجيل الدخول */
+.form-signin {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group > input,
+  .form-label-group > label {
+    height: 3.125rem;
+    padding: .75rem;
+  }
+  
+  .form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0; /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    pointer-events: none;
+    cursor: text; /* Match the input under the label */
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+  
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: 1.25rem;
+    padding-bottom: .25rem;
+  }
+  
+  .form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 12px;
+    color: #777;
+  }
+
+  .btn-sin {
+      padding: 35px 25px;
+      width: 80%;
+      font-size: 36px;
+      font-weight: bold;
+  }
+  
+/* 111111111111111111111111111111111111111111111111111111111111 */
+
+.navbar {
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.title-page h1 {
+    color: #333333;
+    padding-bottom: 15px;
+}
+
+.title-page h1:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    right: 5%;
+    margin-right: -50px;
+    width: 30%;
+    height: 7px;
+    background: rgb(39, 39, 39);
+}
+
+.sec {
+    margin-right: 2%;
+}
+
+.cnt {
+    padding-top: 25px;
+}
+
+.cardsframe {
+    display: flex;
+    padding: 32px;
+}
+
+.cardcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    box-shadow: 10px 10px 40px -30px #505050;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+}
+
+.cardimg {
+    width: 250px;
+    height: 200px;
+    padding-bottom: 15px;
+}
+
+.cardimg img{
+    padding-top: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.cardimg button {
+    border: none;
+}
+
+.cardimg button:hover {
+    border: none;
+}
+
+@media screen and (max-width: 720px) {
+    .cardsframe {
+        flex-direction: column;
+    }
+
+    .cardcont {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+}
+
+.accsec {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.accinfo {
+    padding-top: 15px;
+}
+
+.accinfo {
+    font-weight: bold;
+}
+
+.accinfo span {
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(29, 29, 29);
+}
+
+.accinfo .btn {
+    border: none;
+}
+
+.accinfo .btn:hover {
+    border: none;
+}
+
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.crdsec {
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.crdsec .card-body {
+    text-align: left;
+    direction: ltr;
+    color: rgb(255, 255, 255);
+}
+
+.crdsec .card-body .card-title {
+    padding-top: 35px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+.rajhi{
+    background-color: #003088;
+}
+
+.inma {
+    background-color: #753500;
+}
+
+.billsec {
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.billinfo {
+    padding-top: 15px;
+}
+
+.billinfo {
+    font-weight: lighter;
+}
+
+.billinfo span {
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(29, 29, 29);
+}
+
+.nodata {
+    padding-top: 35px;
+    padding-right: 60%;
+}
+
+@media screen and (max-width: 720px) {
+    .nodata {
+        padding-right: 30%;
+    }
+}
+
+.nodata span {
+    font-size: 28px;
+    font-weight: lighter;
+}
